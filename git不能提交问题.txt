@@ -1,0 +1,12 @@
+error: object file .git/objects/9a/83e9c5b3d697d12a2e315e1777ceaf27ea1bab is empty 
+
+fatal: loose object 9a83e9c5b3d697d12a2e315e1777ceaf27ea1bab (stored in .git/objects/9a/83e9c5b3d697d12a2e315e1777ceaf27ea1bab) is corrupt  
+
+解决方案：
+    $ rm -fr .git  
+
+    $ git init  
+
+    $ git remote add origin your-git-remote-url  
+
+    $ git fetch  
